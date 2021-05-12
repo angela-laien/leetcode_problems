@@ -2,6 +2,9 @@
 
 # Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 
+# Input: x = 123
+# Output: 321
+
 class Solution:
     def reverse(self, x: int) -> int:
         reversed = int(str((abs(x)))[::-1])

@@ -24,4 +24,4 @@ def find_successor(root, key):
 
     if currentNode.val == key:
       break
-  return None
+  return queue[0] if queue else None
